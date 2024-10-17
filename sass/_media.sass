@@ -1,0 +1,607 @@
+$main-color: #d8a288
+$orange-color: #e59846
+
+@media screen and (max-width: 992px)
+  header
+    height: 75px
+    .container
+      padding: 0 70px 0 70px
+      nav
+        margin-left: 30%
+  main
+    min-height: 650px
+    .container
+      padding: 0 70px 0 70px
+      .main_wrapper
+        grid-template-columns: repeat(2, 300px)
+        .main_one
+          padding: 0
+        img
+          width: 100%
+          height: 60%
+          object-fit: cover
+          margin-top: 45%
+        h1
+          font-size: 50px
+        .main_subtitle
+          letter-spacing: 2px
+          margin-top: 22px
+        .main_describe
+          font-size: 17px
+          margin-top: 30px
+          line-height: 40px
+        button
+          width: 230px
+          height: 45px
+          margin-top: 40px
+
+  .bodytreat
+    min-height: 400px
+    .container
+      padding: 0 70px 0 70px
+      .body_descr
+        width: 600px
+        margin-left: 0
+        font-size: 18px
+        letter-spacing: 1.9px
+      .body_title 
+        font-size: 50px
+        letter-spacing: 2px
+        margin-right: 0
+
+  .body
+    min-height: 750px
+    .container
+      padding: 0 70px 0 70px
+      .body_wrapper
+        grid-template-columns: repeat(2, 300px)
+        .body_one
+          .body_decribe 
+            margin-top: 35px
+          .body_around
+            width: 120px
+            height: 120px
+            margin-top: 100px
+      img
+        width: 100%
+
+  .facial
+    min-height: 900px
+    .container
+      padding: 0 70px 0 70px
+      .facial_mtitle
+        font-size: 50px
+        margin-top: 65px
+      .facial_bg
+        width: 700px
+        height: 700px
+        margin-top: 30px
+        left: 10%
+      .facial_wrapper
+        grid-template-columns: repeat(2, minmax(230px, auto))
+        grid-template-rows: repeat(2, minmax(250px, auto))
+        grid-auto-rows: minmax(270px, auto)
+        width: 600px
+        top: 50px
+      .facial_one
+        padding: 40px
+
+  .offerface 
+    min-height: 750px
+    margin-top: 60px
+    background-color: #E4BCA9
+    .container
+      padding: 0 70px 0 70px
+      .offerface_wrapper
+        grid-template-columns: repeat(2, minmax(300px, auto))
+        .offerface_two
+          border: none
+          .offerface_title
+            padding: 60px 30px 0 30px
+          .dotted
+            border: none
+          .offerface_describ
+            width: 100%
+          .offerface_btn
+            background-color: $main-color
+            color: white
+        .offerface_one
+          display: grid
+          align-content: center
+          background-color: #D8A288
+          .link
+            width: 100%
+          .offerface_title
+            font-size: 50px
+            text-align: center
+  .beauty
+    min-height: 750px
+    .container
+      padding: 0 70px 0 70px
+      .beauty_title
+        font-size: 55px
+        font-weight: 700
+      .beauty_wrapper
+        .beauty_column_one
+          grid-template-columns: repeat(3, 211px)
+          grid-auto-columns: 211px
+          .beauty_descr_1
+            padding: 40px 0
+        .beauty_column_two
+          grid-template-columns: repeat(3, 211px)
+          grid-auto-columns: 211px
+          .beauty_descr_1
+            padding: 40px 0
+
+  .list_beauty
+    height: 100%
+    width: 75%
+    .container
+      padding: 0 70px 0 70px
+      z-index: 1
+      .list_beauty_wrapper
+        top: 0
+        left: 70px
+        right: 200px
+        position: absolute
+        z-index: 2
+        display: block
+      .img_bg
+        width: 85%
+        top: 0
+        right: -130px
+      .dotted_bg
+        right: -70px
+        top: 200px
+
+  .contact
+    .container
+      padding: 90px 70px 100px 70px
+      .contact_wrapper
+        grid-template-columns: 300px 350px
+        justify-content: start
+        .contact_two
+          border: none
+    
+  footer
+    height: 80px
+    .container
+      padding: 30px 160px 
+
+
+
+@media screen and (max-width: 767px)
+  header
+    height: 75px
+    .container
+      padding: 0 35px 0 35px
+      nav
+        margin-left: 55px
+  main
+    min-height: 550px
+    .container
+      padding: 0 35px 0 35px
+      .main_wrapper
+        display: block
+        grid-template-columns: none
+        .main_one
+          padding: 0
+        img
+          display: none
+        h1
+          font-size: 50px
+        .main_subtitle
+          letter-spacing: 2px
+          margin-top: 22px
+        .main_describe
+          font-size: 17px
+          margin-top: 30px
+          line-height: 40px
+        button
+          width: 230px
+          height: 45px
+          margin-top: 40px
+
+  .bodytreat
+    min-height: 400px
+    .container
+      padding: 0 35px 0 35px
+      .body_descr
+        width: 500px
+        margin-left: 0
+        font-size: 18px
+        letter-spacing: 1.9px
+      .body_title 
+        font-size: 42px
+        letter-spacing: 2px
+        margin-right: 35px
+
+  .body
+    min-height: 750px
+    .container
+      padding: 0 35px 0 35px
+      .body_wrapper
+        grid-template-columns: repeat(2, 220px)
+        .body_one
+          padding: 50px 5px 50px 5px
+        .body_two
+          margin-left: 20px
+          .body_decribe 
+            margin-top: 35px
+          .body_around
+            width: 100px
+            height: 100px
+            margin-top: 80px
+      img
+        width: 100%
+
+  .facial
+    min-height: 800px
+    .container
+      padding: 0 35px 0 35px
+      .facial_mtitle
+        font-size: 50px
+        margin-top: 65px
+      .facial_bg
+        width: 470px
+        height: 470px
+        margin-top: 50px
+        left: 10%
+      .facial_wrapper
+        grid-template-columns: none
+        grid-template-rows: repeat(2, minmax(250px, auto))
+        grid-auto-rows: minmax(250px, auto)
+        width: 300px
+        top: 50px
+        border: none
+      .facial_one
+        padding: 25px 0 55px 0
+        .facial_round
+          .facial_number
+            position: static
+            text-align: center
+    
+
+  .offerface 
+    min-height: 750px
+    margin-top: 60px
+    background-color: #E4BCA9
+    .container
+      padding: 0 35px 0 35px
+      .offerface_wrapper
+        grid-template-columns: repeat(2, minmax(250px, auto))
+        .offerface_two
+          border: none
+          .offerface_title
+            font-size: 25px
+            padding: 60px 30px 0 30px
+          .dotted
+            border: none
+          .offerface_describ
+            width: 100%
+            padding: 25px
+          .offerface_btn
+            background-color: $main-color
+            color: white
+        .offerface_one
+          display: grid
+          align-content: center
+          background-color: #D8A288
+          .link
+            width: 100%
+          .offerface_title
+            font-size: 50px
+            text-align: center
+  .beauty
+    min-height: 750px
+    .container
+      padding: 0 35px 0 35px
+      .beauty_title_link
+        font-size: 20px
+      .beauty_title
+        font-size: 45px
+        font-weight: 700
+      .beauty_subtitle
+        font-size: 25px
+      .beauty_wrapper
+        .beauty_link
+          font-size: 20px
+        .beauty_column_one
+          grid-template-columns: none
+          grid-auto-columns: 380px
+          .beauty_descr_1
+            padding: 40px 0
+            border: none
+        .beauty_column_two
+          grid-template-columns: none
+          grid-auto-columns: 380px
+          .beauty_descr_1
+            padding: 40px 0
+            border: 0
+
+  .list_beauty
+    min-height: 1100px
+    width: 75%
+    .container
+      padding: 0 35px 0 35px
+      z-index: 3
+      .list_beauty_wrapper
+        position: absolute
+        top: 320px
+        right: 0
+        z-index: 2
+        display: block
+        width: 100%
+        border: none
+        .list_beauty_box
+          border: none
+          margin-top: 15px
+      .img_bg
+        width: 85%
+        top: 0
+        right: -50px
+        z-index: 1
+      .dotted_bg
+        right: -110px
+        top: 120px
+        z-index: -1
+
+
+  .contact
+    .container
+      padding: 90px 35px 100px 35px
+      .contact_wrapper
+        grid-template-columns: none
+        grid-template-rows: minmax(500px, auto)
+        justify-content: start
+        .contact_one
+          padding: 0px 50px 50px 50px
+        .contact_two
+          border: none
+          .contact_btn
+            border: none
+    
+  footer
+    height: 80px
+    .container
+      padding: 30px 160px 
+  
+
+@media screen and (max-width: 575px)
+  header
+    height: 75px
+    .container
+      padding: 0 17px 0 17px
+      nav
+        margin-left: 5px
+        width: 90%
+        li
+          a
+            font-size: 22px
+  main
+    min-height: 550px
+    .container
+      padding: 0 17px 0 17px
+      .main_wrapper
+        display: block
+        grid-template-columns: none
+        .main_one
+          padding: 0
+        img
+          display: none
+        h1
+          font-size: 50px
+        .main_subtitle
+          letter-spacing: 2px
+          margin-top: 22px
+        .main_describe
+          font-size: 15px
+          margin-top: 30px
+          line-height: 40px
+        button
+          width: 230px
+          height: 45px
+          margin-top: 40px
+
+  .bodytreat
+    min-height: 400px
+    .container
+      padding: 0 17px 0 17px
+      .body_descr
+        width: 340px
+        margin-left: 0
+        font-size: 18px
+        letter-spacing: 1.9px
+      .body_title 
+        font-size: 30px
+        letter-spacing: 2px
+        margin-right: 35px
+
+  .body
+    min-height: 750px
+    .container
+      padding: 0 35px 0 35px
+      .body_wrapper
+        grid-template-columns: repeat(2, 160px)
+        margin-top: 40px
+        .body_one
+          padding: 30px 5px 50px 5px
+          .body_title
+            font-size: 28px
+          .body_decribe
+            line-height: 25px
+            margin-top: 15px
+          .body_around
+            width: 100px
+            height: 100px
+            margin-top: 60px
+        .body_two
+          margin-left: 20px
+          .body_decribe 
+            margin-top: 25px
+      img
+        width: 100%
+
+  .facial
+    min-height: 800px
+    .container
+      padding: 0 17px 0 17px
+      .facial_mtitle
+        font-size: 45px
+        margin-top: 65px
+      .facial_bg
+        width: 320px
+        height: 330px
+        margin-top: 50px
+        left: 10%
+      .facial_wrapper
+        grid-template-columns: none
+        grid-template-rows: repeat(2, minmax(200px, auto))
+        grid-auto-rows: minmax(200px, auto)
+        width: 280px
+        top: 50px
+        border: none
+      .facial_one
+        padding: 25px 0 55px 0
+        border: none
+        .facial_describ
+          padding: 0 15px
+        .facial_round
+          .facial_number
+            position: static
+            text-align: center
+    
+
+  .offerface 
+    min-height: 750px
+    margin-top: 60px
+    background-color: #E4BCA9
+    .container
+      padding: 0 17px 0 17px
+      .offerface_wrapper
+        grid-template-columns: repeat(2, minmax(190px, auto))
+        .offerface_two
+          border: none
+          .offerface_title
+            font-size: 25px
+            padding: 35px 15px 0 15px
+          .dotted
+            border: none
+          .offerface_describ
+            width: 100%
+            padding: 15px
+            font-size: 16px
+          .offerface_btn
+            background-color: $main-color
+            color: white
+            width: 175px
+        .offerface_one
+          display: grid
+          align-content: center
+          background-color: #D8A288
+          .link
+            width: 100%
+          .offerface_title
+            font-size: 40px
+            text-align: center
+  .beauty
+    min-height: 750px
+    .container
+      padding: 0 17px 0 17px
+      .beauty_title_link
+        font-size: 20px
+      .beauty_title
+        font-size: 35px
+        font-weight: 700
+      .beauty_subtitle
+        font-size: 19px
+      .beauty_wrapper
+        .beauty_link
+          font-size: 17px
+        .beauty_column_one
+          grid-template-columns: none
+          grid-auto-columns: 260px
+          justify-content: center
+          .beauty_descr_1
+            padding: 40px 0
+            border: none
+        .beauty_column_two
+          grid-template-columns: none
+          grid-auto-columns: 260px
+          .beauty_descr_1
+            padding: 40px 0
+            border: 0
+
+  .list_beauty
+    min-height: 1100px
+    width: 75%
+    .container
+      padding: 0 17px 0 17px
+      .list_beauty_wrapper
+        position: absolute
+        top: 219px
+        right: 0
+        z-index: 2
+        display: block
+        width: 100%
+        border: none
+        .list_beauty_box
+          border: none
+          margin-top: 15px
+          padding: 20px
+          .list_beauty_descri
+            margin-top: 10px
+            font-size: 16px
+            line-height: 22px
+      .img_bg
+        width: 85%
+        top: 0
+        left: 25px
+        z-index: 1
+      .dotted_bg
+        left: 110px
+        width: 70%
+        top: 70px
+        z-index: -1
+
+
+  .contact
+    .container
+      padding: 90px 17px 100px 17px
+      .contact_wrapper
+        grid-template-columns: none
+        grid-template-rows: minmax(500px, auto)
+        justify-content: center
+        margin-right: 0
+        .contact_one
+          padding: 0px 30px 50px 30px
+        .contact_two
+          border: none
+          padding: 50px 30px 50px 30px
+          .contact_title_quest
+            font-size: 25px
+          .contact_btn
+            border: none
+    
+  footer
+    height: 70px
+    .container
+      padding: 25px 0
+
+
+
+        
+
+  
+
+
+          
+          
+
+
+
+
+        
+
+
+            

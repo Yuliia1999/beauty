@@ -1,0 +1,584 @@
+$main-color: #d8a288
+$orange-color: #e59846
+
+$base-font-size: 18px
+$font-size24: 24px
+
+$base-font: 'Open Sans'
+$italic-font: 'Source Code Pro'
+
+  
+
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    font-family: Arial, Helvetica, sans-serif
+  
+    
+header
+   height: 80px
+   .container
+      padding: 0 140px 0 140px
+      nav
+        display: flex
+        justify-content: space-between
+        padding: 30px 0 30px 0
+        width: 400px
+        margin-left: 70%
+        li
+          list-style-type: none
+          a
+            text-decoration: none
+            color: black
+            font-size: $font-size24
+          .link_main
+            color: $main-color
+  
+main
+  min-height: 750px
+  .container
+    padding: 0 160px 0 160px
+    .main_wrapper
+      display: grid
+      grid-template-columns: repeat(2, 600px)
+      column-gap: 40px
+      justify-content: center
+      margin-top: 15px
+      .main_one
+        padding: 0 100px 0 0
+      h1
+        color: $main-color
+        font-size: 72px
+        margin-top: 50px
+      .main_subtitle
+        font-size: $font-size24
+        font-family: font-bold
+        letter-spacing: 3px
+        font-weight: 400
+        margin-top: 25px
+      .main_describe
+        font-family: $base-font
+        font-size: $base-font-size
+        margin-top: 40px
+        line-height: 42px
+      .main_more
+        margin-top: 37px
+        font-size: $base-font-size
+      button
+        width: 235px
+        height: 50px
+        color: $main-color
+        text-transform: uppercase
+        background: white
+        border: 1px solid $main-color
+        font-size: 16px
+        font-family: $base-font
+        font-weight: 800
+        margin-top: 80px
+        cursor: pointer
+        transition: 0.3s
+      button:hover
+        background-color: $main-color
+        color: white
+
+.bodytreat
+  min-height: 480px
+  .container
+    padding: 0 160px 0 160px
+    .body_descr
+      width: 800px
+      padding-top: 80px
+      margin-left: 20px
+      font-size: 20px
+      font-family: $base-font
+      letter-spacing: 2.5px
+    .body_title
+      color: $main-color
+      font-size: 62px
+      letter-spacing: 2px
+      font-weight: 600
+      text-align: end
+      margin-right: 10%
+      margin-top: 25px
+
+.body
+  min-height: 780px
+  background-color: $main-color
+  .container
+    padding: 0 160px 0 160px
+    .body_wrapper
+      display: grid
+      grid-template-columns: repeat(2, 650px)
+      justify-content: center
+      background-color: white
+      .body_one
+        background-color: white
+        padding: 50px 40px
+        .body_title
+          font-size: 30px
+          font-weight: 600
+          color: $main-color
+        .body_decribe
+          font-family: $italic-font
+          line-height: 35px
+          margin-top: 20px
+          font-size: $base-font-size
+        .body_around
+          width: 134px
+          height: 134px
+          border-radius: 100%
+          background-color: $main-color
+          margin-top: 120px
+      .body_two
+        margin-left: 70px
+    img
+      transform: 0.3s
+      &:hover
+        transform: scale(1.01) 
+        transition: all .4s 
+
+
+.facial
+  min-height: 1140px
+  .container
+    padding: 0 160px 0 160px
+  &_mtitle
+    text-align: center
+    color: $main-color
+    font-size: 55px
+    font-weight: 700
+    margin-top: 70px
+  .facial_bg
+    width: 800px
+    height: 800px
+    background-color: $main-color
+    clip-path: ellipse(50% 50% at 50% 50%)
+    position: absolute
+    margin-top: 30px
+    z-index: -1
+    left: 25%
+
+  .facial_wrapper
+    display: grid
+    background-color: #FBF5F2
+    grid-template-columns: repeat(2, minmax(300px, auto))
+    grid-template-rows: repeat(2,minmax(400px, auto))
+    grid-auto-rows: minmax(270px, auto)
+    width: 700px
+    margin: 0px auto
+    border: 1px dotted
+    position: relative
+    top: 80px
+    z-index: 1
+    .facial_one
+      border: 1px dotted
+      padding: 30px
+      .facial_round
+        width: 110px
+        height: 110px
+        border-radius: 100%
+        background-color: #EFD7CC
+        position: relative
+        margin: 0 auto
+        padding: 25px 25px
+        .facial_number
+          position: absolute
+          font-size: 48px
+          color: $main-color
+          font-weight: 600
+      .facial_title
+        font-size: 24px
+        color: $main-color
+        margin-top: 25px
+        font-weight: 700
+        text-align: center
+      .facial_describ
+        font-size: 20px
+        font-family: italic-bond
+        letter-spacing: 1px
+        margin-top: 15px
+        line-height: 25px
+        text-align: center
+  .facial_btn
+    display: block
+    margin: 0 auto
+    margin-top: 120px
+    width: 250px
+    height: 45px
+    border: 1px solid $main-color
+    background-color: white
+    font-size: 16px
+    font-weight: 700
+    color: $main-color
+    cursor: pointer
+  &_btn:hover
+    background-color: $main-color
+    color: white
+
+.offerface
+  min-height: 800px
+  background-color: $main-color
+  .container
+    padding: 0 160px 0 160px
+    .offerface_wrapper
+      display: grid
+      grid-template-columns: repeat(2, minmax(685px, auto))
+      justify-content: center
+      justify-items: center
+      padding-top: 60px
+      .offerface_one
+        .offerface_title
+          color: white
+          font-size: 60px
+          font-family: $base-font
+          font-weight: 700
+          margin: 40px 0
+      .offerface_two
+        display: grid
+        grid-template-rows: repeat(2, minmax(275px, auto))
+        background-color: white
+        border: 1px dotted black
+        .dotted
+          border: 1px dotted black
+        .offerface_title
+          padding: 30px 30px 0 30px
+          font-size: 30px
+          color: $main-color
+          font-weight: 700
+          text-align: center
+        .offerface_describ
+          width: 700px
+          padding: 30px
+          font-size: $base-font-size
+          line-height: 35px
+        .offerface_btn
+          display: block
+          margin: auto
+          margin-bottom: 5px
+          width: 200px
+          height: 47px
+          background-color: white
+          color: $main-color
+          font-size: 16px
+          font-weight: 700
+          text-transform: uppercase
+          border: 1px solid $main-color
+          cursor: pointer
+          transition: 0.2s
+        .offerface_btn:hover
+          background-color: $main-color
+          color: white
+
+.beauty
+  min-height: 800px
+  .container
+    padding: 0 160px 0 160px
+    .beauty_title
+      padding-top: 55px
+      font-size: 60px
+      font-family: $base-font
+      font-weight: 900
+      text-align: center
+    .beauty_subtitle
+      margin-top: 30px
+      font-size: $base-font-size
+      text-align: center
+    .beauty_wrapper 
+      display: grid
+      grid-template-rows: repeat(2, minmax(230px, auto))
+      grid-auto-rows: minmax(230px, auto)
+      justify-content: center
+      margin-top: 40px
+      background-color: #EFD7CC
+      .beauty_link
+        margin-top: 20px
+        text-align: center
+        color: black
+        text-transform: uppercase
+        letter-spacing: 1px
+      .beauty_care
+        display: grid
+        justify-items: stretch
+      img
+        object-fit: cover
+        height: 100%
+        width: 100%
+      .beauty_column_one
+        display: grid
+        grid-template-columns: repeat(3, 380px) 
+        grid-auto-columns: 380px
+      .beauty_column_two
+        display: grid
+        grid-template-columns: repeat(3, 380px) 
+        grid-auto-columns: 380px
+      .beautycare_title
+        font-size: 30px
+        font-weight: 700
+        text-align: center
+      .beauty_descr 
+        font-size: $base-font-size
+        color: #000000b1
+        line-height: 28px
+        text-align: center
+        margin-top: 20px
+        padding: 0 10px
+      .beauty_descr_1
+        display: grid
+        border: 1px dotted black
+        align-content: center
+    .beauty_title_link
+      text-align: center
+      margin-top: 30px
+    .beauty_btn 
+      display: block
+      margin: auto
+      margin-top: 35px
+      width: 180px
+      height: 40px
+      background-color: white
+      color: $main-color
+      font-size: 16px
+      font-weight: 700
+      text-transform: uppercase
+      border: 1px solid $main-color
+      cursor: pointer
+      transition: 0.2s
+    .beauty_btn:hover
+      background-color: $main-color
+      color: white
+       
+.list_beauty 
+  min-height: 850px
+  width: 65%
+  background-color: #EFD7CC
+  margin-top: 120px
+  .container
+    padding: 0 160px 0 160px
+    position: relative
+    .img_bg
+      position: absolute
+      top: 100px
+      right: -222px
+    .dotted_bg
+      position: absolute
+      right: -280px
+      top: 190px
+      z-index: -1
+  .list_beauty_wrapper 
+    position: absolute
+    top: 160px
+    right: 260px
+    z-index: 1
+    display: grid
+    grid-template-columns: repeat(2, 290px)
+    grid-template-rows: repeat(2, min-max(250px, auto))
+    grid-auto-rows: 250px
+    gap: 15px
+  .list_beauty_box
+    background-color: white
+    padding: 30px
+    display: grid
+    justify-items: center
+    border: 1px dotted #000000c0
+    .list_beauty_title
+      display: grid
+      align-content: center
+      font-size: $base-font-size
+      font-family: $base-font
+      font-weight: 600
+      letter-spacing: 2px
+      color: #e59846
+    .list_beauty_descri
+      font-size: $base-font-size
+      font-family: $italic-font
+      line-height: 25px
+
+.contact 
+  min-height: 810px
+  .container
+    padding: 55px 160px 
+    .contact_wrapper
+      display: grid
+      grid-template-columns: 500px 700px
+      grid-template-rows: minmax(710px, auto)
+      justify-content: center
+      margin-right: 60px
+      .contact_one
+        display: grid
+        align-content: space-evenly
+        padding: 60px 40px 80px 40px
+        border: 1px dotted black
+        .contact_title
+          color: $main-color
+          font-size: 30px
+          font-weight: 700
+          margin-top: 40px
+        .contact_adress
+          font-family: $base-font
+          font-size: $base-font-size
+        .contact_num
+          text-decoration: none
+          color: $main-color
+          font-size: $base-font-size
+        .contact_sheudele
+          letter-spacing: 0.5px
+          font-size: $base-font-size
+          line-height: 22px
+        .contact_email
+          color: $main-color
+          font-size: $base-font-size
+          font-weight: 600
+          text-decoration: underline
+        .contact_social_wrapper
+          display: flex
+          align-items: center
+          gap: 10px
+          img
+            width: 35px
+            height: 35px
+            border-radius: 13px
+        .contact_privacy
+          font-size: 18px
+
+      .contact_two
+        padding: 50px 50px 50px 50px
+        background-color: #EFD7CC
+        border: 1px dotted black
+        .contact_title_quest
+          font-size: 30px
+          font-weight: 900
+        .contact_form
+          margin-top: 20px
+          article
+            margin-top: 25px
+          .article_name
+            margin-top: 50px
+          #name
+            height: 40px
+            width: 100%
+            padding: 10px
+            font-size: 15px
+          #email
+            height: 40px
+            width: 100%
+            padding: 10px
+            font-size: 15px
+          textarea
+            height: 170px
+            width: 100%
+            resize: none
+            padding: 15px
+            font-size: 17px
+        .contact_btn
+          margin-top: 10px
+          height: 60px
+          width: 100%
+          font-size: 25px
+          font-weight: 700
+          background-color: black
+          color: white
+          transition: 0.3s
+        .contact_btn:hover
+          color: $main-color
+
+
+footer
+  height: 120px
+  background-color: #000000da
+  .container
+    padding: 50px 160px 0 160px
+    .right
+      text-align: center
+      color: #fafafada
+      font-size: 17px
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+          
+          
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+      
+        
+      
+      
+
+
+      
+
+          
+
+
+
+
+
+      
+
+
+
+
+
+
+        
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+
