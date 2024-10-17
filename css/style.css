@@ -1161,7 +1161,7 @@ footer .container .right {
     font-size: 28px;
   }
   .body .container .body_wrapper .body_one .body_decribe {
-    line-height: 25px;
+    line-height: 20px;
     margin-top: 15px;
   }
   .body .container .body_wrapper .body_one .body_around {
@@ -1306,6 +1306,7 @@ footer .container .right {
     position: absolute;
     top: 219px;
     right: 0;
+    left: 20px;
     z-index: 2;
     display: block;
     width: 100%;
